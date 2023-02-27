@@ -1,0 +1,17 @@
+#wrapper {
+    width: 70%;
+    border: 1px solid blue;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#wrapper div {
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin-bottom: 30px;
+}
